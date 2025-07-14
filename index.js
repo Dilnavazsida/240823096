@@ -49,7 +49,6 @@
 //     }
 // }
 
-
 // console.log(isLeapYear(2021)); 
 
 
@@ -57,13 +56,13 @@
 //  program 4
 
 
-user = 5 
+let user = 5 ;
 
-output = 0
+let output = 0;
 
-for (i=1; i<=i; i++){
-    output+=i
+for (let i = 1; i <= user; i++){
+    output += i;
 }
-console.log(output)
+console.log(output);
 
 

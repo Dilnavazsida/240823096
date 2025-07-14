@@ -14,4 +14,14 @@
 
 // program 2
 
+let a = 5
+let b = 9
+
+if (a>=b){
+    console.log("a is greter ")
+}
+else{
+  console.log("b is greter ")
+}
+
 

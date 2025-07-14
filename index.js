@@ -56,13 +56,91 @@
 //  program 4
 
 
-let user = 5 ;
+// let user = 5 ;
 
-let output = 0;
+// let output = 0;
 
-for (let i = 1; i <= user; i++){
-    output += i;
-}
-console.log(output);
+// for (let i = 1; i <= user; i++){
+//     output += i;
+// }
+// console.log(output);
 
 
+//  program 5
+
+// let user = 4
+
+// let fac = 1
+
+// for (let i=1; i<=user;i++){
+//         fac *=i;
+// }
+// console.log("factorial is : ",fac)
+
+
+// program 6
+
+// let user = 5
+
+// for (let i=1; i<=10; i++){
+//         console.log(user,"*",i,"=",user*i);
+// }
+
+
+// program 7
+
+// let num = 1234;
+
+// let reversed = num.toString().split('').reverse().join();
+
+// console.log(reversed);
+
+
+// program 8
+
+
+// let user = 121
+
+// if (user == user.toString().split('').reverse().join('')){
+//         console.log("number is pelindrome ")
+// }
+// else{
+//     console.log("not pelindrome")
+// }
+
+
+// program 9
+
+// let user = 7
+// let isPrime = true
+// if (user <=1){
+//     console.log("number is not prime")
+//    }
+
+// for(let i=2; i<=6; i++){
+        
+//     if (user % i == 0){
+//         isPrime = false
+//         break
+//     }
+// }
+// if(isPrime){
+//  console.log("number is prime")
+// }
+// else{
+//   console.log("number not prime")
+   
+// }
+
+
+
+// program 10
+
+// let user = 123456
+// let len = 0
+// str = user.toString()
+
+// for(let i=1; i <= str.length; i++){
+//         len=i
+// }
+// console.log(len)

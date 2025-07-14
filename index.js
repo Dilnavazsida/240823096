@@ -14,14 +14,56 @@
 
 // program 2
 
-let a = 5
-let b = 9
+// let a = 5
+// let b = 9
 
-if (a>=b){
-    console.log("a is greter ")
+// if (a>=b){
+//     console.log("a is greter ")
+// }
+// else{
+//   console.log("b is greter ")
+// }
+
+
+
+// program 3
+
+// function isLeapYear(year) {
+//     if (year % 4 === 0) {
+
+//         if (year % 100 === 0) {
+
+//             if (year % 400 === 0) {
+//                 return "Leap year";  
+
+//             } else {
+//                 return "not Leap year";  
+//             }
+
+//         } else {
+//             return "Leap year";  
+//         }
+
+//     } else {
+//         return "not Leap year";  
+//     }
+// }
+
+
+// console.log(isLeapYear(2021)); 
+
+
+
+//  program 4
+
+
+user = 5 
+
+output = 0
+
+for (i=1; i<=i; i++){
+    output+=i
 }
-else{
-  console.log("b is greter ")
-}
+console.log(output)
 
 

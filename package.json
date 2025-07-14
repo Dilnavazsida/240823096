@@ -1,0 +1,20 @@
+{
+  "name": "240823096",
+  "version": "1.0.0",
+  "description": "Node programs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dilnavazsida/240823096.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dilnavazsida/240823096/issues"
+  },
+  "homepage": "https://github.com/Dilnavazsida/240823096#readme"
+}

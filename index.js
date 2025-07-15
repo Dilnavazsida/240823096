@@ -144,3 +144,15 @@
 //         len=i
 // }
 // console.log(len)
+
+
+// program 11
+
+let num = 123
+let toString = String(num)
+let sum = 0
+for(let i = 0; i < toString.length; i++){
+        sum += parseInt(toString[i])
+}
+console.log(sum)
+

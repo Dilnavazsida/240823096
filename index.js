@@ -148,11 +148,27 @@
 
 // program 11
 
-let num = 123
-let toString = String(num)
-let sum = 0
-for(let i = 0; i < toString.length; i++){
-        sum += parseInt(toString[i])
-}
-console.log(sum)
+// let num = 123
+// let toString = String(num)
+// let sum = 0
+// for(let i = 0; i < toString.length; i++){
+//         sum += parseInt(toString[i])
+// }
+// console.log(sum)
 
+
+//  program 12
+
+
+function check_armstrong(num){
+    let original = num
+    let sum = 0
+    while (num > 0){
+        let r = num % 10
+        sum += r*r*r
+        num = parseInt(num / 10)
+    }
+    return original == sum
+}
+let num = 153
+console.log(check_armstrong(num))

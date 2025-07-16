@@ -160,15 +160,47 @@
 //  program 12
 
 
-function check_armstrong(num){
-    let original = num
-    let sum = 0
-    while (num > 0){
-        let r = num % 10
-        sum += r*r*r
-        num = parseInt(num / 10)
-    }
-    return original == sum
-}
-let num = 153
-console.log(check_armstrong(num))
+// function check_armstrong(num){
+//     let original = num
+//     let sum = 0
+//     while (num > 0){
+//         let r = num % 10
+//         sum += r*r*r
+//         num = parseInt(num / 10)
+//     }
+//     return original == sum
+// }
+// let num = 153
+// console.log(check_armstrong(num))
+
+
+//  program 13
+
+// function fibonacci(n){
+//         prevNum = 0
+//         cruntNum = 1
+        
+//         for(i=1;i<n;i++){
+//             prevPrevNum = prevNum
+//             prevNum = cruntNum
+//             cruntNum = prevPrevNum + cruntNum
+//         }
+//         return cruntNum
+// }
+// let user = 5
+// console.log(fibonacci(user))
+
+
+// program 14
+
+// function check_vovel(n){
+//         let vl = ['a','e','i','o','u','A','E','I','O','U']
+//         for(let i=0;i<=n.length;i++){
+//                 if(n === vl[i]){
+//                     return "vovel"
+//                 }           
+//         }
+//         return "not vovel" 
+// }
+// let n = "a"
+// console.log(check_vovel(n))

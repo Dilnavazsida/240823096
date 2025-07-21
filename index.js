@@ -1,6 +1,7 @@
 
 
-                                    // program 1
+                                    // program 1 Check Even or Odd
+
 
 // let user  = 7
 
@@ -12,7 +13,7 @@
 // }
 
 
-                                    // program 2
+                                    // program 2 Find the Maximum of Two Numbers
 
 // let a = 5
 // let b = 9
@@ -26,7 +27,7 @@
 
 
 
-                                    // program 3
+                                    // program 3 Check Leap Year
 
 // function isLeapYear(year) {
 //     if (year % 4 === 0) {
@@ -53,7 +54,7 @@
 
 
 
-                                //  program 4
+                                //  program 4 Sum of Natural Numbers
 
 
 // let user = 5 ;
@@ -66,7 +67,7 @@
 // console.log(output);
 
 
-                                //  program 5
+                                //  program 5 Factorial of a Number
 
 // let user = 4
 
@@ -78,7 +79,7 @@
 // console.log("factorial is : ",fac)
 
 
-                                // program 6
+                                // program 6 Print Multiplication Table
 
 // let user = 5
 
@@ -87,7 +88,7 @@
 // }
 
 
-                                // program 7
+                                // program 7 Reverse a Number
 
 // let num = 1234;
 
@@ -96,7 +97,7 @@
 // console.log(reversed);
 
 
-                                // program 8
+                                // program 8 Palindrome Check (Number)
 
 
 // let user = 121
@@ -109,7 +110,7 @@
 // }
 
 
-                                // program 9
+                                // program 9. Check Prime Number
 
 // let user = 7
 // let isPrime = true
@@ -134,7 +135,7 @@
 
 
 
-                                    // program 10
+                                    // program 10. Count Digits in a Number
 
 // let user = 123456
 // let len = 0
@@ -146,7 +147,7 @@
 // console.log(len)
 
 
-                                    // program 11
+                                    // program 11. Sum of Digits
 
 // let num = 123
 // let toString = String(num)
@@ -157,7 +158,7 @@
 // console.log(sum)
 
 
-                                //  program 12
+                                //  program 12. Check Armstrong Number
 
 
 // function check_armstrong(num){
@@ -174,7 +175,7 @@
 // console.log(check_armstrong(num))
 
 
-                                    //  program 13
+                                    //  program 13. Generate Fibonacci Series
 
 // function fibonacci(n){
 //         prevNum = 0
@@ -191,7 +192,7 @@
 // console.log(fibonacci(user))
 
 
-                                // program 14
+                                // program 14. Check Vowel or Consonant
 
 // function check_vovel(n){
 //         let vl = ['a','e','i','o','u','A','E','I','O','U']
@@ -206,7 +207,7 @@
 // console.log(check_vovel(n))
 
 
-                                // program 15
+                                // program 15. Simple Calculator
 
 // let input = "4 + 3"
 
@@ -236,7 +237,7 @@
 // console.log("output",result)
 
 
-                        //  program 16
+                        //  program 16. Find GCD (HCF)
 
 // function find_gcd(a,b){
 //    while(b !== 0){ 
@@ -255,7 +256,7 @@
 
 
 
-                        //  program 17
+                        //  program 17 Check Perfect Number
 
 // function check_perfect_num(a){
 //     sum = 0
@@ -275,7 +276,7 @@
 
 
 
-                                    // program 18
+                                    // program 18. Print All Divisors
 
 // function dis_all_div_int(a){
 //     all = ""
@@ -290,7 +291,7 @@
 // console.log(dis_all_div_int(10))
 
 
-                                    // program 19
+                                    // program 19. Number is Positive, Negative or Zero 
 
 // function check_pos_neg_zero(num){
 //             if(num < 0){
@@ -306,7 +307,7 @@
 // console.log(check_pos_neg_zero(1))
 
 
-                                    // program 20
+                                    // program 20. Find Power (Exponentiation) 
 
 // function power(a,b){
 //             let result = 1 

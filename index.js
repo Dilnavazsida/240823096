@@ -37,7 +37,8 @@
 //             if (year % 400 === 0) {
 //                 return "Leap year";  
 
-//             } else {
+//             } 
+                // else {
 //                 return "not Leap year";  
 //             }
 
@@ -194,17 +195,17 @@
 
                                 // program 14. Check Vowel or Consonant
 
-// function check_vovel(n){
-//         let vl = ['a','e','i','o','u','A','E','I','O','U']
-//         for(let i=0;i<=n.length;i++){
-//                 if(n === vl[i]){
-//                     return "vovel"
-//                 }           
-//         }
-//         return "not vovel" 
-// }
-// let n = "a"
-// console.log(check_vovel(n))
+function check_vovel(n){
+        let vl = ['a','e','i','o','u','A','E','I','O','U']
+        for(let i=0;i<=vl.length;i++){
+                if(n === vl[i]){
+                    return "vovel"
+                }           
+        }
+        return "not vovel" 
+}
+let n = "o"
+console.log(check_vovel(n))
 
 
                                 // program 15. Simple Calculator

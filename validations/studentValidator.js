@@ -1,11 +1,11 @@
 const joi = require("joi")
 
 exports.createValidator = joi.object({
-    name: joi.string().min(3).max(30).required(),
+    name: joi.string().min(3).max(20).required(),
     city: joi.string().min(3).max(50).required()
 });
 exports.updateValidator = joi.object({
-    name: joi.string().min(3).max(30).optional(),
+    name: joi.string().min(3).max(20).optional(),
     city: joi.string().min(3).max(50).optional()
 });
 

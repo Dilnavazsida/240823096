@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://Dilnavazsida:DILnavaz12@mca.2alnppp.mongodb.net/?retryWrites=true&w=majority&appName=mca",{
+mongoose.connect("add yours",{
   
 });
 
